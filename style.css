@@ -38,4 +38,28 @@ h2{
     font-family:  Georgia, 'Times New Roman', Times, serif;
    
 }
+button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+   
+    background-color: black;
+    border-radius: 20px;
+    width: 15%;
+    border: 2px solid rgb(198, 255, 113);
+    color: honeydew;
+    height: 40px;
+    transition: 0.25s;
+  
+}
+button:hover{
+   
+    border-color: rgb(0, 247, 255);
+    width:17%;
+    height:44px;
+    border-radius: 22px;
+    color: rgb(136, 255, 245);
+    box-shadow: 5px 5px 20px #00ffff;
+    font-size: 14px;
 
+}
